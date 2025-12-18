@@ -1,0 +1,74 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.img-fluid {
+    width: 100%;
+    height: 80px;
+}
+.img-fluid {
+    max-width: 100%;
+   
+}
+img, svg {
+    vertical-align: middle;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+/* HEADER IMAGE */
+.hero {
+    height: 180px;
+    background: url("banner.jpg") center/cover no-repeat;
+    position: relative;
+}
+
+.hero-overlay {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-logo {
+    background: white;
+    padding: 15px 30px;
+    border-radius: 50px;
+    height: 60px;
+}
+
+
+.pricing-card {
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.pricing-card h2 span {
+    font-size: 18px;
+    color: gray;
+}
+footer {
+    background-color: #78baea;
+    color: #333;
+    text-align: center;
+    padding: 1rem;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+footer {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+
+
+
+
